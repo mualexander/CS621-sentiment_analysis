@@ -1,0 +1,11 @@
+,comments,VADER correct,VADER + sports correct,TextBlob correct,VADER said positive,VADER + sports said positive,TextBlob said positive
+criticism,16,0.5,0.75,0.438,0.438,0.188,0.25
+insulting,5,0.2,0.6,0.2,0.6,0.4,0.2
+sarcasm,2,0.0,0.0,0.5,1.0,1.0,0.0
+teasing,4,0.25,0.25,0.5,0.5,0.5,0.0
+gloating,2,0.5,0.5,0.5,0.5,0.5,0.5
+defeatist,7,0.286,0.571,0.286,0.714,0.429,0.571
+direct negativity,21,0.429,0.714,0.381,0.476,0.238,0.238
+indirect negativity,15,0.267,0.4,0.4,0.667,0.533,0.333
+negative with 😂/🤣,13,0.077,0.077,0.462,0.846,0.846,0.308
+all negative,36,0.361,0.583,0.389,0.556,0.361,0.278

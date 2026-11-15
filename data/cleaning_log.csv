@@ -1,0 +1,6 @@
+step,rule,before,removed,after,removed_%
+1_empty,"no text after removing whitespace, invisible characters, leading @handle",9561,0,9561,0.0
+2_creator,channel commenting on its own video,9561,20,9541,0.21
+3_non_english,"langdetect P(en) < 0.1 and English function words < 15%, on comments with 30+ letters",9541,0,9541,0.0
+4_duplicates,"same commenter + same normalized text, or normalized text 25+ characters repeated by anyone (earliest kept)",9541,43,9498,0.45
+5_outdated,"posted > 72h after upload, except post-announcement comments on pre-announcement videos",9498,42,9456,0.44

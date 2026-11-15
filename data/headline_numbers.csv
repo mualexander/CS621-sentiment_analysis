@@ -1,0 +1,23 @@
+,value
+raw comments,9561.0
+clean comments,9456.0
+removed in cleaning,105.0
+videos,18.0
+commenters,4852.0
+share Josh Pate,0.7850042301184433
+VADER + sports positive share,0.4983079526226734
+VADER + sports negative share,0.31450930626057527
+standard VADER positive share,0.5099407783417935
+standard VADER negative share,0.29674280879864634
+TextBlob positive share,0.43591370558375636
+TextBlob negative share,0.21478426395939088
+"hand-label accuracy, VADER + sports",0.52
+"hand-label accuracy, standard VADER",0.34
+"hand-label accuracy, TextBlob",0.34
+expansion comments,330.0
+within-video split: comments before,2266.0
+within-video split: comments after,1213.0
+"event coef (all, controlled)",0.0192
+"event p (all, controlled)",0.5202
+event coef Josh Pate,0.026
+event coef Crain & Cone,-0.0081

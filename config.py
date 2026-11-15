@@ -43,3 +43,18 @@ DATA_DIR = ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"              # one JSON file per video
 CANDIDATES_CSV = DATA_DIR / "candidates.csv"
 VIDEOS_CSV = DATA_DIR / "videos.csv"    # the 10 selected videos (curated by hand)
+
+# College-football slang added to VADER's lexicon (VADER scale, -4 to +4).
+# Values are the project's own judgement of how the words are used in these comments;
+# they were checked against the hand labels in notebook 04, section 4.
+SPORTS_LEXICON = {
+    # negative slang VADER doesn't know
+    "trash": -2.0, "garbage": -2.0, "overrated": -1.5, "delusional": -1.8, "clown": -1.8, "clowns": -1.8,
+    "robbed": -2.0, "cope": -1.2, "coping": -1.2, "mid": -1.0, "cooked": -1.5, "washed": -1.5,
+    "bum": -1.8, "bums": -1.8, "glazing": -1.0, "glaze": -1.0, "esecn": -1.5, "frauds": -2.5,
+    # words VADER scores the wrong way in sports talk
+    "l": -1.5,       # "L" = a loss (VADER has +2.0)
+    "joke": -1.5,    # "the rankings are a joke" (VADER has +1.2)
+    # positive slang
+    "w": 1.5, "goated": 2.0, "underrated": 1.0,
+}

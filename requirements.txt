@@ -1,0 +1,14 @@
+requests>=2.31
+pandas>=2.2
+numpy
+matplotlib
+seaborn
+wordcloud
+vaderSentiment>=3.3.2
+textblob>=0.18
+langdetect>=1.0.9
+emoji>=2.10
+jupyter
+nbformat
+nbconvert
+ipykernel
